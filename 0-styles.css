@@ -1,0 +1,44 @@
+/* 0-STYLE.CSS */
+
+ul{
+    width: 65%;
+    margin: auto;
+    height: 500px;
+    background-color: rgb(245, 248, 247);
+    /* border: 1px solid black; */
+    /* padding: 10px; */
+
+    /* USE GRIDS */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:0px;
+    background-image: url(/0-sprite.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* padding: 0px; */
+    /* background-position-x: 200%; */
+    /* ADDED IMG */
+}
+
+ul li{
+    display: flex;
+    width: 90%;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-size: 40px;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    /* padding-left: 60px; */
+    /* margin-left: 30px; */
+    font-weight: 700;
+    /* padding: 10px; */
+    
+}
+
+li span.i-html{
+    /* margin-left: 310px; */
+    /* font-size: 100px; */
+}
+
