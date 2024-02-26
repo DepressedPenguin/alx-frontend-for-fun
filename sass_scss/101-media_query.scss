@@ -6,8 +6,6 @@ $SIZE_OF_WITTH_MEDIA: 14px;
 h1{
 font-size: $SIZE_OF_H1;
 @media screen and (max-width: 320px) {
-  h1 {
     font-size:$SIZE_OF_WITTH_MEDIA;
-  }
 }
 }
