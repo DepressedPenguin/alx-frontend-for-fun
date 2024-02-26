@@ -1,0 +1,11 @@
+/* TASK 6 */
+$TextColor: #3D3D3D;
+$RED_COLOR: #FF0000;
+
+body{
+color: $TextColor;
+
+> .red{
+color: $RED_COLOR;
+}
+}
