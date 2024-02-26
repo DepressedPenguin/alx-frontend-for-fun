@@ -1,0 +1,11 @@
+/* TASK 12 */
+
+$list_of_tags: h1, h2, h3, h4, h5;
+
+@for $i from 1 through 5 {
+  $tag: nth($list_of_tags, $i);
+  #{$tag} {
+    font-size: $i + px;
+  }
+}
+
