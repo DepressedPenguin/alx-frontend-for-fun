@@ -1,0 +1,10 @@
+/* TASK 7 */
+$BTN_COLOR: #FF0000;
+$HOVER_COLOR: $00FF00;
+
+button{
+color: $BTN_COLOR;
+&:hover{
+colo: $HOVER_COLOR;
+}
+}
