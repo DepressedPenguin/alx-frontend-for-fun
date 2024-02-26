@@ -1,0 +1,13 @@
+/* TASK 101 */
+
+$SIZE_OF_H1: 20px;
+$SIZE_OF_WITTH_MEDIA: 14px;
+
+h1{
+font-size: $SIZE_OF_H1;
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size:$SIZE_OF_WITTH_MEDIA;
+  }
+}
+}
